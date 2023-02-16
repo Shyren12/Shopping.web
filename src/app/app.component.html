@@ -1,36 +1,5 @@
-<div>
-  <mat-toolbar color="primary">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span>Shopping</span>
-    <input id="search" type="text" placeholder="Search">
-    <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with chat icon">
-      <mat-icon>chat</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with login icon">
-      <mat-icon>login</mat-icon>
-    </button>
-  </mat-toolbar>
-</div>
+<router-outlet></router-outlet>
 
-<div class="Main-container">
-   <div class="item" *ngFor=" let item of product">
-    <img class="item1" [src]="item.img" >
-    <p class="name"> {{item.name}}</p>
-    <p class="price">{{item.price}}</p>
-    <p class="quantity">{{item.quantity}}</p>
-    <p class="describe">{{item.describe}} </p>
-    <button mat-raised-button color="warn" style="margin-left: 45px ;">Warn</button>
-   </div>  
-</div>
 
 
 

@@ -1,0 +1,8 @@
+<app-taskbar></app-taskbar>
+
+<div class="test">
+    <app-shirt (dataShirtChange)="like($event)" *ngFor="let item of shirt" [item]="item"></app-shirt>
+    <app-sneaker *ngFor="let item of sneaker" [item]="item"></app-sneaker>
+</div>
+
+

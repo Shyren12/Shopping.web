@@ -1,0 +1,61 @@
+.Main-container
+{
+  margin: 1% 0 0 1%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:1%;
+}
+
+.item1
+{
+  height: 180px;
+  width: 100%;
+}
+
+.item{
+  // margin: 25px 20px 0px 35px;
+  padding: 5px;
+  background-color: rgb(207, 203, 203);
+  width: 200px;
+  height: 380px;
+  border: solid 1px rgb(32, 35, 41);
+  border-radius: 10px;
+}
+
+.name
+{
+  color:rgb(187, 3, 3);   
+  font-size: 17px;
+  text-align:center;
+}
+
+.price
+{
+  color:rgb(0, 0, 0);
+  font-size: 17px;
+  text-align:left;
+}
+
+.quantity
+{
+  color:rgb(0, 0, 0);
+  font-size: 17px;
+  text-align:left;
+}
+
+.describe
+{
+  color:rgb(0, 0, 0);
+  font-size: 17px;
+  text-align:left;
+}
+
+.btn
+{
+  background-color: rgba(208, 16, 16, 0.599);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+  color:rgb(245, 245, 245);
+  display: flex;
+}
